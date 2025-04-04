@@ -1,0 +1,79 @@
+* {
+  font-family: 'Hack', monospace;
+  font-size: 14px;
+}
+
+/* Window */
+window {
+  margin: 0px;
+  padding: 5px;
+  background-color: #514448;
+}
+
+/* Inner Box */
+#inner-box {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  background-color: #514448;
+}
+
+#outer-box {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  background-color: #514448;
+}
+
+#scroll {
+  margin: 0px;
+  padding: 5px;
+  border: none;
+  background-color: #514448;
+}
+
+#input {
+  margin: 5px 20px;
+  padding: 5px;
+  border: none;
+  color: #DDDBCF;
+  background-color: #514448;
+}
+
+#input image {
+  color: #DDDBCF;
+}
+
+#input:focus {
+  box-shadow: none;
+}
+
+#input * {
+  outline: 4px solid #9F4E60;
+}
+
+#text {
+  margin: 5px;
+  color: #DDDBCF;
+}
+
+#entry {
+  background-color: #514448;
+}
+
+#entry arrow {
+  color: #DDDBCF;
+}
+
+#entry:selected {
+  color: #D7755B;
+}
+
+#entry:selected #text {
+  color: #D7755B;
+}
+
+#entry:drop(active) {
+  background-color: #986681;
+  border: none;
+}
