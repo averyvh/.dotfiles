@@ -1,0 +1,43 @@
+{ config, lib, pkgs, ... }:
+
+{
+  imports =
+    [ 
+      ./hardware-configuration.nix
+      ./pkgs.nix
+    ];
+
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+
+  networking.hostName = "e14nix"; 
+  networking.networkmanager.enable = true;
+
+  time.timeZone = "America/Vancouver";
+
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+  services.pipewire = {
+    enable = true;
+    pulse.enable = true;
+  };
+
+  programs.hyprland.enable = true;
+  programs.steam.enable = true;
+
+  services.libinput.enable = true;
+
+  users.users.aer = {
+    extraGroups = [ "wheel" ]; 
+    isNormalUser = true;
+  };
+
+  system.stateVersion = "25.05";
+
+}
+
