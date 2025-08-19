@@ -25,7 +25,24 @@
   services.pipewire = {
     enable = true;
     pulse.enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
   };
+  services.mpd = {
+    enable = true;
+    musicDirectory = "/home/aer/Music";
+    extraConfig = ''
+      audio_output {
+        type "pipewire"
+        name "pipewire-0"
+      }
+    '';
+  };
+  services.mpd.user = "aer";
+  systemd.services.mpd.environment = {
+    XDG_RUNTIME_DIR = "/run/user/1000";
+  };
+
 
   programs.hyprland.enable = true;
   programs.steam.enable = true;
