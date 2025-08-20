@@ -4,7 +4,7 @@
 	};
 	fonts.packages = with pkgs; [
 		aporetic-bin
-		nerd-fonts.hack
+		font-awesome
 	];
 	environment.systemPackages = with pkgs; [
 		_7zz
@@ -30,11 +30,13 @@
 		nmap
 		nnn
 		parted
+		pavucontrol
 		pciutils
 		rsync
 		smartmontools
 		stow
 		swaybg
+		swaylock
 		testdisk
 		tmux
 		usbutils

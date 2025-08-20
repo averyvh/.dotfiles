@@ -7,7 +7,15 @@
 		nixosConfigurations = {
 			e14nix = nixpkgs.lib.nixosSystem {
 				system = "x86_64-linux";
-				modules = [ ./configuration.nix ];
+				modules = [ ./configuration.nix 
+					./e14-hard.nix
+				];
+			};
+			eltnix = nixpkgs.lib.nixosSystem {
+				system = "x86_64-linux";
+				modules = [ ./configuration.nix 
+					./eltnix-hard.nix
+				];
 			};
 		};
 	};

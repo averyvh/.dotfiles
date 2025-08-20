@@ -3,7 +3,6 @@
 {
   imports =
     [ 
-      ./hardware-configuration.nix
       ./pkgs.nix
     ];
 
@@ -13,7 +12,6 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  networking.hostName = "e14nix"; 
   networking.networkmanager.enable = true;
 
   time.timeZone = "America/Vancouver";
