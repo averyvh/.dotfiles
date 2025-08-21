@@ -14,10 +14,12 @@
 		btop
 		calibre
 		cifs-utils
+		clisp
 		ddrescue
 		emacs
 		exfat
 		firefox
+		fzf
 		gcc
 		git
 		hdparm
@@ -25,14 +27,17 @@
 		keepassxc
 		kitty
 		lm_sensors
+		mc
 		most
+		mpv
 		ncmpcpp
 		neovim
 		nmap
-		nnn
+		nodejs_24
 		parted
 		pavucontrol
 		pciutils
+		python3Full
 		rsync
 		smartmontools
 		stow
@@ -47,6 +52,7 @@
 		waybar
 		wget
 		wireguard-tools
+		wireshark
 		wofi
 		yt-dlp
 		zathura
