@@ -10,8 +10,8 @@
         "hyprland/workspaces",
         "hyprland/mode",
         "hyprland/scratchpad",
-        "custom/media",
-	"tray"
+        "custom/media"
+//	"tray"
     ],
     "modules-center": [
         "clock",

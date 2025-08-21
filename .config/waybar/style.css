@@ -118,7 +118,7 @@ button:hover {
 }
 
 #clock {
-    background-color: #6F675C;
+    background-color: #514448;
     color: #DDDBCF;
 }
 
@@ -267,22 +267,22 @@ label:focus {
 }
 
 #mpd {
-    background-color: #6F675C;
+    background-color: #514448;
     color: #DDDBCF;
 }
 
 #mpd.disconnected {
-    background-color: #6F675C;
+    background-color: #514448;
     color: #DDDBCF;
 }
 
 #mpd.stopped {
-    background-color: #6F675C;
+    background-color: #514448;
     color: #DDDBCF;
 }
 
 #mpd.paused {
-    background-color: #6F675C;
+    background-color: #514448;
     color: #DDDBCF;
 }
 
