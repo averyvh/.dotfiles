@@ -268,15 +268,17 @@ label:focus {
 
 #mpd {
     background-color: #6F675C;
-    color: #2a5c45;
+    color: #DDDBCF;
 }
 
 #mpd.disconnected {
-    background-color: #f53c3c;
+    background-color: #6F675C;
+    color: #DDDBCF;
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+    background-color: #6F675C;
+    color: #DDDBCF;
 }
 
 #mpd.paused {

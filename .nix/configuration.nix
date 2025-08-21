@@ -41,6 +41,7 @@
     XDG_RUNTIME_DIR = "/run/user/1000";
   };
 
+  networking.wg-quick.interfaces.wg0.configFile = "/etc/wireguard/wg0.conf";
 
   programs.hyprland.enable = true;
   programs.steam.enable = true;

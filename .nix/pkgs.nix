@@ -22,6 +22,7 @@
 		git
 		hdparm
 		john
+		keepassxc
 		kitty
 		lm_sensors
 		most
@@ -45,7 +46,9 @@
 		vim
 		waybar
 		wget
+		wireguard-tools
 		wofi
+		yt-dlp
 		zathura
 		zip
 	];
