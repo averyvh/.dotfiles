@@ -46,11 +46,12 @@
 
   programs.hyprland.enable = true;
   programs.steam.enable = true;
-
+  programs.wireshark.enable = true;
+  virtualisation.waydroid.enable = true;
   services.libinput.enable = true;
-
+  
   users.users.aer = {
-    extraGroups = [ "wheel" ]; 
+    extraGroups = [ "wheel" "wireshark" ]; 
     isNormalUser = true;
   };
 
