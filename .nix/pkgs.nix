@@ -9,6 +9,7 @@
 	environment.systemPackages = with pkgs; [
 		_7zz
 		acpi
+		android-tools
 		bibata-cursors
 		brightnessctl
 		btop
@@ -23,6 +24,7 @@
 		gcc
 		git
 		hdparm
+		jmtpfs
 		john
 		keepassxc
 		kitty
