@@ -44,12 +44,16 @@
 
   networking.wg-quick.interfaces.wg0.configFile = "/etc/wireguard/wg0.conf";
 
+  programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.steam.enable = true;
   programs.wireshark.enable = true;
   virtualisation.waydroid.enable = true;
   services.libinput.enable = true;
-  
+  services.tailscale.enable = true;
+  services.gvfs.enable = true;
+  programs.dconf.enable = true;
+
   users.users.aer = {
     extraGroups = [ "wheel" "wireshark" ]; 
     isNormalUser = true;

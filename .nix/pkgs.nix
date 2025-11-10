@@ -19,7 +19,7 @@
 		ddrescue
 		emacs
 		exfat
-		firefox
+		freerdp
 		fzf
 		gcc
 		git
@@ -29,6 +29,7 @@
 		keepassxc
 		kitty
 		lm_sensors
+		mate.caja-with-extensions
 		mc
 		most
 		mpv
@@ -36,6 +37,7 @@
 		neovim
 		nmap
 		nodejs_24
+		ntfs3g
 		parted
 		pavucontrol
 		pciutils
