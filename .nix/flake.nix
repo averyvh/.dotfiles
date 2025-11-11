@@ -17,6 +17,12 @@
 					./eltnix-hard.nix
 				];
 			};
+			x150nix = nixpkgs.lib.nixosSystem {
+				system = "x86_64-linux";
+				modules = [ ./configuration.nix 
+					./x150nix-hard.nix
+				];
+			};
 		};
 	};
 }
