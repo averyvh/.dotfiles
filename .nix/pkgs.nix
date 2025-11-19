@@ -17,6 +17,7 @@
 		cifs-utils
 		clisp
 		ddrescue
+		discord
 		emacs
 		exfat
 		freerdp
@@ -24,24 +25,29 @@
 		gcc
 		git
 		hdparm
+		heroic
 		jmtpfs
 		john
 		keepassxc
 		kitty
 		lm_sensors
+		lutris
 		mate.caja-with-extensions
 		mc
 		most
 		mpv
 		ncmpcpp
 		neovim
+		nicotine-plus
 		nmap
 		nodejs_24
 		ntfs3g
 		parted
 		pavucontrol
 		pciutils
+		playerctl
 		python3Full
+		rclone
 		rsync
 		smartmontools
 		stow
@@ -55,6 +61,8 @@
 		vim
 		waybar
 		wget
+		wine
+		winetricks
 		wireguard-tools
 		wireshark
 		wofi

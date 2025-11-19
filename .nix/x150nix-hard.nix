@@ -9,6 +9,7 @@
     ];
 
   networking.hostName = "x150nix";
+  networking.firewall.allowedTCPPorts = [ 2234 ];
 
   boot.initrd.availableKernelModules = [ "xhci_pci" "ahci" "nvme" "usbhid" "sd_mod" ];
   boot.initrd.kernelModules = [ "dm-snapshot" ];
