@@ -18,14 +18,17 @@
 		clisp
 		ddrescue
 		discord
+		easytag
 		emacs
 		exfat
 		freerdp
 		fzf
 		gcc
+		gimp
 		git
 		hdparm
 		heroic
+		hyprshot
 		jmtpfs
 		john
 		keepassxc
@@ -46,7 +49,7 @@
 		pavucontrol
 		pciutils
 		playerctl
-		python3Full
+		python3
 		rclone
 		rsync
 		smartmontools
