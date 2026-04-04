@@ -17,10 +17,11 @@
 		cifs-utils
 		clisp
 		ddrescue
+		dig
 		discord
-		easytag
 		emacs
 		exfat
+		ffmpeg
 		freerdp
 		fzf
 		gcc
@@ -29,10 +30,12 @@
 		hdparm
 		heroic
 		hyprshot
+		imagemagick
 		jmtpfs
 		john
 		keepassxc
 		kitty
+		libreoffice
 		lm_sensors
 		lutris
 		mate.caja-with-extensions
@@ -49,6 +52,7 @@
 		pavucontrol
 		pciutils
 		playerctl
+		puddletag
 		python3
 		rclone
 		rsync

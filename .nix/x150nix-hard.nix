@@ -75,9 +75,20 @@
   # still possible to use this option, but it's recommended to use it in conjunction
   # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
   #  networking.useDHCP = lib.mkDefault true;
-   networking.interfaces.enp0s31f6.useDHCP = lib.mkDefault true;
-  # networking.interfaces.tailscale0.useDHCP = lib.mkDefault true;
+   networking = {
+     defaultGateway = "192.168.1.1";
+     nameservers = [ "192.168.1.4" ];
+     interfaces.enp16s0.ipv4.addresses = [{
+       address = "192.168.1.10";
+       prefixLength = 24;
+       }];
+    };
+
+  services.hardware.openrgb = {
+    enable = true;
+    package = pkgs.openrgb;
+    };
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
-  hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+  hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 }
