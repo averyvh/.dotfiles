@@ -47,7 +47,7 @@
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.steam.enable = true;
-  programs.gamescope.enable = true;
+  programs.steam.gamescopeSession.enable = true;
   programs.wireshark.enable = true;
   virtualisation.waydroid.enable = true;
   services.libinput.enable = true;

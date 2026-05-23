@@ -64,6 +64,7 @@
 		tmux
 		usbutils
 		ungoogled-chromium
+		unrar-free
 		unzip
 		vim
 		waybar
