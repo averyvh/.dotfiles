@@ -30,12 +30,14 @@
   services.mpd = {
     enable = true;
     musicDirectory = "/home/aer/Music";
-    extraConfig = ''
-      audio_output {
-        type "pipewire"
-        name "pipewire-0"
-      }
-    '';
+    settings = {
+      audio_output = [
+        {
+	  type = "pipewire";
+          name = "pipewire-0";
+	}
+      ];
+    };
   };
   services.mpd.user = "aer";
   systemd.services.mpd.environment = {
