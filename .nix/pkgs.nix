@@ -38,6 +38,7 @@
 		libreoffice
 		lm_sensors
 		lutris
+		mangohud
 		mate.caja-with-extensions
 		mc
 		most
