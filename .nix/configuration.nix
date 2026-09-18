@@ -48,7 +48,10 @@
 
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
-  programs.steam.enable = true;
+  programs.steam = {
+    enable = true;
+    localNetworkGameTransfers.openFirewall = true;
+  };
   programs.steam.gamescopeSession.enable = true;
   programs.wireshark.enable = true;
   virtualisation.waydroid.enable = true;
