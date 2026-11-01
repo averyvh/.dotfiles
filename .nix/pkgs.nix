@@ -37,6 +37,7 @@
 		kitty
 		libreoffice
 		lm_sensors
+		localsend
 		lutris
 		mangohud
 		mate.caja-with-extensions
